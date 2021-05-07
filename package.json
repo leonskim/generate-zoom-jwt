@@ -1,0 +1,21 @@
+{
+  "name": "generate-zoom-jwt",
+  "version": "0.0.1",
+  "description": "Simple JS script that generates Zoom JWT tokens for authentication",
+  "main": "index.js",
+  "author": "Leon Kim",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "prompt": "^1.1.0"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
